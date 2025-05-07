@@ -11,6 +11,10 @@ main()
     console.log(err);
 });
 
+
+
+// async funtion hai ye 
+
 async function main () {
     await mongoose.connect('mongodb://127.0.0.1:27017/rentwala');
 }
